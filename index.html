@@ -5,11 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ldpynot.xyz - Coming Soon</title>
     <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #ff4500;
+            font-size: 48px;
+            animation: spin 4s linear infinite;
+        }
+        p {
+            font-size: 24px;
+            color: #008080;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>ldpynot.xyz</h1>
-        <p>Not Yet Ready</p>
+        <h1 class="blink">ldpynot.xyz</h1>
+        <p>i want to believe</p>
+        <iframe src="https://giphy.com/embed/gpkstDZ9FGGXK" width="127" height="160" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/aliens-abduction-alien-gif-gpkstDZ9FGGXK">in peer-reviewed, fact based evidence</a></p>
         <footer>&copy; 1999 ldpynot.xyz</footer>
     </div>
 </body>
