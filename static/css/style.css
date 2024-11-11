@@ -1,8 +1,9 @@
+@font-face {
+    font-family: 'Turret Road';
+    src: url('../fonts/TurretRoad-Regular.ttf') format('truetype');
+}
+
 body {
-    @font-face {
-        font-family: 'Turret Road';
-        src: url('/fonts/TurretRoad-Regular.ttf') format('ttf');
-    }
     font-family: 'Turret Road', monospace;
     background-color: #1A1A1A;  /* Dark black/gray */
     color: #A4FF00;  /* Alien green */
@@ -11,10 +12,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    @font-face {
-        font-family: 'Turret Road';
-        src: url('/fonts/TurretRoad-Regular.ttf') format('ttf');
-    }
     font-family: 'Turret Road', monospace;
     color: #A4FF00;  /* Alien green */
     text-transform: uppercase;
