@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lucida Console', monospace;  /* Use Turret Road font */
+    background-color: #1A1A1A;  /* Dark black/gray */
+    color: #A4FF00;  /* Alien green */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Console', monospace;  /* Use Turret Road font */
+    color: #A4FF00;  /* Alien green */
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+
+a {
+    color: #A4FF00;  /* Alien green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1A1A1A;  /* Dark black/gray */
+    background-color: #A4FF00;  /* Alien green */
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Header */
+header {
+    background-color: #A4FF00;  /* Alien green */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #1A1A1A;  /* Dark black/gray */
+}
+
+/* Navigation */
+nav {
+    background-color: #1A1A1A;  /* Dark black/gray */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 1.2em;
+    color: #A4FF00;  /* Alien green */
+}
+
+nav a:hover {
+    color: #1A1A1A;  /* Dark black/gray */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    border-bottom: 2px solid #A4FF00;  /* Alien green */
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #A4FF00;  /* Alien green */
+    color: #1A1A1A;  /* Dark black/gray */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Buttons */
+button {
+    background-color: #A4FF00;  /* Alien green */
+    color: #1A1A1A;  /* Dark black/gray */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1A1A1A;  /* Dark black/gray */
+    color: #A4FF00;  /* Alien green */
+}
+
+/* Forms */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #A4FF00;  /* Alien green */
+    border-radius: 5px;
+    background-color: #1A1A1A;  /* Dark black/gray */
+    color: #A4FF00;  /* Alien green */
+}
+
+input::placeholder, textarea::placeholder {
+    color: #A4FF00;  /* Alien green */
+}
